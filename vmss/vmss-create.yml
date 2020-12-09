@@ -12,8 +12,8 @@
     resource_group: myTestRG
     vmss_name: myTestVMSS
     location: eastus
-    admin_username: "{{ lookup('env','azureadmin') }}"
-    admin_password: "{{ lookup('env','Temp1234567!') }}"
+    admin_username: "{{ lookup('env',azureadmin) }}"
+    admin_password: "{{ lookup('env',Temp1234567!) }}"
 
   tasks:
     - name: Create a resource group
