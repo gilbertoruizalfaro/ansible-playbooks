@@ -8,7 +8,7 @@
   hosts: localhost
   connection: local
   vars:
-    resource_group: "{{ resource_group_name }}"
+    resource_group: "{{ myresourcegroup }}"
     resource_group_secondary: createvmsubnetin2ndrg2
     vm_name: testvm
     location: eastus
